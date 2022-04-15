@@ -1,5 +1,5 @@
-Overview: The purpose of this audit is to certify the election in one of Colorado state’s congressional districts.  Votes are tallied by three different methods, then total votes cast are tabulated by candidate and county to determine the winning candidate and the per-county outcome.  Normally this process is performed in Excel, but the state elections office wants a process which can be automated and applied to other elections as well, including senate and municipal.  The desired outcomes for this project are thus two-fold: to determine the outcome of this individual election; and to create a vote tally process which is flexible and reusable.
-Results: 
+Overview:Â The purpose of this audit is to certify the election in one of Colorado stateâ€™s congressional districts.  Votes are tallied by three different methods, then total votes cast are tabulated by candidate and county to determine the winning candidate and the per-county outcome.  Normally this process is performed in Excel, but the state elections office wants a process which can be automated and applied to other elections as well, including senate and municipal.  The desired outcomes for this project are thus two-fold: to determine the outcome of this individual election; and to create a vote tally process which is flexible and reusable.
+Results:Â 
 Total Votes: 369,711
 County Votes:
 o Jefferson: 10.5% (38,855)
@@ -15,10 +15,12 @@ Candidate Votes:
 * Winner: Diana DeGette
 * Winning Vote Count: 272,892
 * Winning Percentage: 73.8%
-Recommendations: 
+Recommendations:Â 
 This script can be easily adapted to conclude outcomes for other types of elections.  The reporting script, which details winning by candidate and county, can be altered to report other types of elections. Writing input functions for user-defined parameters which are passed to the main process would give required flexibility.   Such variables would include: a 
 * summary title of the election
 * date of the election
+
+getting user input and creating flexble code could look like this:
 #**************variables
 election_title=""
 * election_identifier=""
@@ -54,3 +56,5 @@ total_votes=0
 * 
 * #**************get data file
 #****************for yes/no, use dropn# Election_Analysis
+
+Yes/no propositions would be processed separately usin conditional flows.
