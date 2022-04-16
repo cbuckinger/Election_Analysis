@@ -1,3 +1,6 @@
+This commit complies with the command line run requirement of the challenge.  Thanks for etting me know about the problem and thank you for reviewing this 
+new submission!
+
 Overview: The purpose of this audit is to certify the election in one of Colorado state’s congressional districts.  Votes are tallied by three different methods, then total votes cast are tabulated by candidate and county to determine the winning candidate and the per-county outcome.  Normally this process is performed in Excel, but the state elections office wants a process which can be automated and applied to other elections as well, including senate and municipal.  The desired outcomes for this project are thus two-fold: to determine the outcome of this individual election; and to create a vote tally process which is flexible and reusable.
 Results: 
 Total Votes: 369,711
